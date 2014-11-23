@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+[ng-click] {
+    cursor: pointer;
+}
+
 body {
     background-image: url(background.jpg);
     background-attachment: fixed;
