@@ -121,6 +121,18 @@ Character.prototype.onUnlink = function ( ) {
 
 };
 
+function goodEscape( value ) {
+
+    return encodeURIComponent( value ).replace( /\(/g, '%28' ).replace( /\)/g, '%29' );
+
+}
+
+function goodUnescape( value ) {
+
+    return decodeURIComponent( value );
+
+}
+
 function setHashFromRegistry( registry ) {
 
     var serialized = { };
@@ -138,13 +150,13 @@ function setHashFromRegistry( registry ) {
 
     } );
 
-    window.location.hash = '#' + encodeURIComponent( JSON.stringify( serialized ) );
+    window.location.hash = '#' + goodEscape( JSON.stringify( serialized ) );
 
 }
 
 function setRegistryFromHash( registry ) {
 
-    var unserialized = JSON.parse( decodeURIComponent( window.location.hash.substr( 1 ) ) );
+    var unserialized = JSON.parse( goodUnescape( window.location.hash.substr( 1 ) ) );
     var names = Object.keys( unserialized );
 
     while ( names.length > 0 ) {
@@ -183,7 +195,7 @@ var app = angular.module( 'fe13', [ ] );
 app.filter( 'escape', function ( ) {
 
     return function ( value ) {
-        return encodeURIComponent( value );
+        return goodEscape( value );
     };
 
 } );
