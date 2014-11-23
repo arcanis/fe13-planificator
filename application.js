@@ -10,6 +10,11 @@ var Character = function ( env, name, parents ) {
 
     this.classes = _.unique( [ ].concat( this.env.data.Characters[ this.name ].Classes || [ ], _.flatten( this.parents.map( function ( name ) { return this.env.registry[ name ].getBequeathedClasses( this ); }, this ) ) ) );
 
+    for ( var t = 0; t < this.classes.length; ++ t )
+        this.classes = this.classes.concat( this.env.data.Classes[ this.classes[ t ] ].Promoted || [ ] );
+
+    this.classes = _.unique( this.classes );
+
     this.availableSkills = _.unique( [ ].concat( this.env.data.Characters[ this.name ].Skills || [ ], _.flatten( this.classes.map( function ( name ) { return this.env.data.Classes[ name ].Skills; }, this ) ), _.flatten( this.parents.map( function ( name ) { return this.env.registry[ name ].availableSkills; }, this ) ) ) );
     this.enabledSkills = [ ];
 
