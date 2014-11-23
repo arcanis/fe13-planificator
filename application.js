@@ -161,8 +161,8 @@ function setRegistryFromHash( registry ) {
             if ( entry[ 0 ] && ! registry[ entry[ 0 ] ] )
                 return true;
 
-            if ( entry[ 0 ] !== undefined )
-                registry[ name ].link( entry[ 0 ] !== 0 ? registry[ entry[ 0 ] ] : null );
+            if ( entry[ 0 ] !== 0 )
+                registry[ name ].link( entry[ 0 ] !== null ? registry[ entry[ 0 ] ] : null );
 
             registry[ name ].enabledSkills = entry[ 1 ];
 
