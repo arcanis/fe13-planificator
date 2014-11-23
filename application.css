@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+
 * {
     box-sizing: border-box;
 }
@@ -44,6 +46,13 @@ body {
 .character .infos {
     flex: none;
     width: 148px;
+}
+
+.character .name {
+    margin: 20px 0;
+
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.4em;
 }
 
 .character .supports {

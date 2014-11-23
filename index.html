@@ -20,6 +20,7 @@
             <div class="character" ng-repeat="character in characters" ng-class="{ ok : character.significantOther !== undefined }">
                 <div class="infos">
                     <img class="portrait" ng-src="portraits/{{ character.name | escape }}.png" />
+                    <div class="name">{{ character.name }}</div>
                     <div class="skills">
                         <img class="skill" ng-repeat="skill in character.availableSkills" ng-class="{ off : character.enabledSkills.indexOf(skill) === -1 }" ng-click="toggleSkill(character, skill)" ng-src="skills/{{ skill | escape }}.png" />
                     </div>
