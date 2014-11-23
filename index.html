@@ -1,0 +1,36 @@
+<!doctype html>
+<html ng-app="fe13">
+
+    <head>
+
+        <link rel="stylesheet" href="application.css" />
+
+        <script src="https://cdn.rawgit.com/jeremyfa/yaml.js/v0.2.1/dist/yaml.js"></script>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.js"></script>
+
+        <script src="application.js"></script>
+
+    </head>
+
+    <body ng-controller="loader">
+        <div class="main" ng-if="env.data" ng-controller="main">
+
+            <div class="character" ng-repeat="character in characters" ng-class="{ ok : character.significantOther !== undefined }">
+                <div class="infos">
+                    <img class="portrait" ng-src="portraits/{{ character.name | escape }}.png" />
+                    <div class="skills">
+                        <img class="skill" ng-repeat="skill in character.availableSkills" ng-class="{ off : character.enabledSkills.indexOf(skill) === -1 }" ng-click="toggleSkill(character, skill)" ng-src="skills/{{ skill | escape }}.png" />
+                    </div>
+                </div>
+                <div class="supports">
+                    <img class="support" ng-class="{ out : character.significantOther }" ng-click="toggleLink(character, null)" src="portraits/None.png" />
+                    <img class="support" ng-repeat="support in characters | canSupportWith:character" ng-class="{ out : !character.canLinkWith(support) }" ng-click="toggleLink(character, support)" ng-src="portraits/{{ support.name | escape }}.png" />
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+</html>

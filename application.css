@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg);
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.character {
+    display: flex;
+
+    margin: 30px auto;
+
+    width: 45%;
+
+    border: 2px solid #454545;
+    border-radius: 10px;
+
+    padding: 20px;
+
+    background: #F5F2E6;
+
+    transition: border-color: .2s;
+}
+
+.character.ok {
+    border-color: #2EB144;
+}
+
+.character .portrait,
+.character .support {
+    display: block;
+}
+
+.character .portrait {
+    margin-bottom: 5px;
+}
+
+.character .infos {
+    flex: none;
+    width: 148px;
+}
+
+.character .supports {
+    flex: auto;
+}
+
+.character .support {
+    float: left;
+
+    height: 62.5px;
+
+    transition: opacity .2s;
+}
+
+.character .support.out {
+    opacity: .2;
+}
+
+.character .skill {
+    transition: opacity .2s;
+}
+
+.character .skill.off {
+    opacity: .2;
+}

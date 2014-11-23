@@ -1,0 +1,1345 @@
+Initial:
+    - Avatar (F)
+    - Avatar (M)
+    - Chrom
+    - Lissa
+    - Frederick
+    - Sully
+    - Virion
+    - Stahl
+    - Vaike
+    - Miriel
+    - Sumia
+    - Kellam
+    - Donnel
+    - Lon’qu
+    - Ricken
+    - Maribelle
+    - Panne
+    - Gaius
+    - Cordelia
+    - Gregor
+    - Nowi
+    - Libra
+    - Tharja
+    - Anna
+    - Olivia
+    - Cherche
+    - Henry
+    - Say’ri
+    - Tiki
+    - Basilio
+    - Flavia
+    - Gangrel
+    - Walhart
+    - Emmeryn
+    - Yen’fay
+    - Aversa
+    - Priam
+
+Classes:
+
+    Lord:
+        Promoted:
+            - Great Lord
+        Skills:
+            - Dual Strike+
+            - Charm
+
+    Great Lord:
+        Skills:
+            - Aether
+            - Rightful King
+
+    Tactician:
+        Promoted:
+            - Grandmaster
+        Skills:
+            - Veteran
+            - Solidarity
+
+    Grandmaster:
+        Skills:
+            - Ignis
+            - Rally Spectrul
+
+    Cavalier:
+        Promoted:
+            - Paladin
+            - Great Knight
+        Skills:
+            - Discipline
+            - Outdoor Fighter
+
+    Paladin:
+        Skills:
+            - Defender
+            - Aegis
+
+    Great Knight:
+        Skills:
+            - Luna
+            - Dual Guard+
+
+    Knight:
+        Promoted:
+            - Great Knight
+            - General
+        Skills:
+            - Defence +2
+            - Indoor Fighter
+
+    General:
+        Skills:
+            - Rally Defence
+            - Pavise
+
+    Myrmidon:
+        Promoted:
+            - Swordmaster
+            - Assassin
+        Skills:
+            - Avoid +10
+            - Vantage
+
+    Swordmaster:
+        Skills:
+            - Astra
+            - Swordfaire
+
+    Mercenary:
+        Promoted:
+            - Hero
+            - Bow Knight
+        Skills:
+            - Armsthrift
+            - Patience
+
+    Hero:
+        Skills:
+            - Sol
+            - Axebreaker
+
+    Fighter:
+        Requirements:
+            Gender: Male
+        Promoted:
+            - Warrior
+            - Hero
+        Skills:
+            - HP +5
+            - Zeal
+
+    Warrior:
+        Skills:
+            - Rally Strength
+            - Counter
+
+    Barbarian:
+        Requirements:
+            Gender: Male
+        Promoted:
+            - Berseker
+            - Warrior
+        Skills:
+            - Despoil
+            - Gamble
+
+    Berseker:
+        Skills:
+            - Wrath
+            - Axefaire
+
+    Archer:
+        Promoted:
+            - Bow Knight
+            - Sniper
+        Skills:
+            - Skill +2
+            - Prescience
+
+    Sniper:
+        Skills:
+            - Hit Rate +20
+            - Bowfaire
+
+    Bow Knight:
+        Skills:
+            - Rally Skill
+            - Bowbreaker
+
+    Thief:
+        Promoted:
+            - Assassin
+            - Trickster
+        Skills:
+            - Locktouch
+            - Movement +1
+
+    Assassin:
+        Skills:
+            - Lethality
+            - Pass
+
+    Trickster:
+        Skills:
+            - Lucky Seven
+            - Acrobat
+
+    Pegasus Knight:
+        Requirements:
+            Gender: Female
+        Promoted:
+            - Falcon Knight
+            - Dark Flier
+        Skills:
+            - Speed +2
+            - Relief
+
+    Falcon Knight:
+        Skills:
+            - Rally Speed
+            - Lancefaire
+
+    Dark Flier:
+        Skills:
+            - Rally Movement
+            - Galeforce
+
+    Wyvern Rider:
+        Promoted:
+            - Wyvern Lord
+            - Griffon Rider
+        Skills:
+            - Strength +2
+            - Tantivy
+
+    Wyvern Lord:
+        Skills:
+            - Quick Burn
+            - Swordbreaker
+
+    Griffon Rider:
+        Skills:
+            - Deliverer
+            - Lancebreaker
+
+    Mage:
+        Promoted:
+            - Dark Knight
+            - Sage
+        Skills:
+            - Magic +2
+            - Focus
+
+    Sage:
+        Skills:
+            - Rally Magic
+            - Tomefaire
+
+    Dark Mage:
+        Promoted:
+            - Sorcerer
+            - Dark Knight
+        Skills:
+            - Hex
+            - Anathema
+
+    Sorcerer:
+        Skills:
+            - Vengeance
+            - Tomebreaker
+
+    Dark Knight:
+        Skills:
+            - Slow Burn
+            - Lifetaker
+
+    Priest:
+        Requirements:
+            Gender: Male
+        Promoted:
+            - Sage
+            - War Monk
+        Skills:
+            - Miracle
+            - Healtouch
+
+    Cleric:
+        Requirements:
+            Gender: Female
+        Promoted:
+            - Sage
+            - War Cleric
+        Skills:
+            - Miracle
+            - Healtouch
+
+    War Monk:
+        Requirements:
+            Gender: Male
+        Skills:
+            - Rally Luck
+            - Renewal
+
+    War Cleric:
+        Requirements:
+            Gender: Female
+        Skills:
+            - Rally Luck
+            - Renewal
+
+    Troubadour:
+        Requirements:
+            Gender: Female
+        Promoted:
+            - War Cleric
+            - Valkyrie
+        Skills:
+            - Resistance +2
+            - Demoiselle
+
+    Valkyrie:
+        Skills:
+            - Rally Resistance
+            - Dual Support+
+
+    Villager:
+        Skills:
+            - Aptitude
+            - Underdog
+
+    Dancer:
+        Inherited: false
+        Skills:
+            - Luck +4
+            - Special Dance
+
+    Taguel:
+        Skills:
+            - Even Rhythm
+            - Beastbane
+
+    Manakete:
+        Skills:
+            - Odd Rhythm
+            - Wyrmsbane
+
+    Conqueror:
+        Inherited: false
+        Skills:
+            - Conquest
+
+    Dread Fighter:
+        Inherited: false
+        Skills:
+            - Resistance +10
+            - Aggressor
+
+    Bride:
+        Inherited: false
+        Skills:
+            - Rally Heart
+            - Bond
+
+Characters:
+    Anna:
+        Gender: Female
+        Classes:
+            - Thief
+            - Archer
+            - Mage
+            - Bride
+        Supports:
+            - Avatar (M)
+
+    Aversa:
+        Gender: Female
+        Skills:
+            - Shadowgift
+        Classes:
+            - Pegasus Knight
+            - Wyvern Rider
+            - Dark Mage
+            - Bride
+        Supports:
+            - Avatar (M)
+
+    Basilio:
+        Gender: Male
+        Classes:
+            - Fighter
+            - Barbarian
+            - Knight
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+
+
+    Brady:
+        Gender: Male
+        Classes:
+            - Priest
+            - Cavalier
+            - Mage
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lucina
+            - Kjelle
+            - Cynthia
+            - Severa
+            - Morgan (F)
+            - Noire
+            - Nah
+
+    Cherche:
+        Gender: Female
+        Children:
+            - Gerome
+        Classes:
+            - Wyvern Rider
+            - Troubadour
+            - Cleric
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Frederick
+            - Virion
+            - Stahl
+            - Vaike
+            - Kellam
+            - Lon’qu
+            - Ricken
+            - Gaius
+            - Gregor
+            - Libra
+            - Henry
+        Sons:
+            Troubadour: Fighter
+
+    Chrom:
+        Gender: Male
+        Children:
+            - Lucina
+        Classes:
+            - Lord
+            - Cavalier
+            - Archer
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Sully
+            - Sumia
+            - Maribelle
+            - Olivia
+
+    Cordelia:
+        Gender: Female:
+        Children:
+            - Severa
+        Classes:
+            - Pegasus Knight
+            - Mercenary
+            - Dark Mage
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Frederick
+            - Virion
+            - Stahl
+            - Vaike
+            - Kellam
+            - Donnel
+            - Lon’qu
+            - Ricken
+            - Gaius
+            - Gregor
+            - Libra
+            - Henry
+
+    Cynthia:
+        Gender: Female
+        Classes:
+            - Pegasus Knight
+            - Knight
+            - Cleric
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Owain
+            - Inigo
+            - Brady
+            - Gerome
+            - Morgan (M)
+            - Yarne
+            - Laurent
+
+    Donnel:
+        Gender: Male
+        Classes:
+            - Villager
+            - Fighter
+            - Mercenary
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lissa
+            - Sully
+            - Miriel
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Olivia
+            - Cherche
+        Daughters:
+            Villager: Pegasus Knight
+            Fighter: Troubadour
+
+    Emmeryn:
+        Gender: Female
+        Classes:
+            - Cleric
+            - Pegasus Knight
+            - Troubadour
+            - Bride
+        Supports:
+            - Avatar (M)
+
+    Avatar (F):
+        Gender: Female
+        Children:
+            - Morgan (M)
+        Classes:
+            - Tactician
+            - Cavalier
+            - Knight
+            - Myrmidon
+            - Archer
+            - Thief
+            - Pegasus Knight
+            - Wyvern Rider
+            - Mage
+            - Dark Mage
+            - Cleric
+            - Troubadour
+            - Bride
+        Supports:
+            - Chrom
+            - Frederick
+            - Virion
+            - Stahl
+            - Vaike
+            - Kellam
+            - Lon’qu
+            - Ricken
+            - Gaius
+            - Gregor
+            - Libra
+            - Henry
+            - Basilio
+            - Donnel
+            - Owain
+            - Inigo
+            - Brady
+            - Gerome
+            - Yarne
+            - Laurent
+            - Gangrel
+            - Walhart
+            - Yen’fay
+            - Priam
+
+    Morgan (F):
+        Gender: Female
+        Classes:
+            - Tactician
+            - Cavalier
+            - Knight
+            - Myrmidon
+            - Archer
+            - Thief
+            - Pegasus Knight
+            - Wyvern Rider
+            - Mage
+            - Dark Mage
+            - Cleric
+            - Troubadour
+            - Bride
+        Supports:
+            - Owain
+            - Inigo
+            - Brady
+            - Gerome
+            - Yarne
+            - Laurent
+
+    Flavia:
+        Gender: Female
+        Classes:
+            - Mercenary
+            - Thief
+            - Knight
+            - Bride
+        Supports:
+            - Avatar (M)
+
+    Frederick:
+        Gender: Male
+        Classes:
+            - Cavalier
+            - Knight
+            - Wyvern Rider
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lissa
+            - Sully
+            - Miriel
+            - Sumia
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Olivia
+            - Cherche
+
+    Gaius:
+        Gender: Male
+        Classes:
+            - Thief
+            - Fighter
+            - Myrmidon
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lissa
+            - Sully
+            - Miriel
+            - Sumia
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Olivia
+            - Cherche
+        Daughters:
+            Fighter: Pegasus Knight
+
+    Gangrel:
+        Gender: Male
+        Classes:
+            - Thief
+            - Barbarian
+            - Dark Mage
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+
+    Gerome:
+        Gender: Male
+        Classes:
+            - Wyvern Rider
+            - Fighter
+            - Priest
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lucina
+            - Kjelle
+            - Cynthia
+            - Severa
+            - Morgan (F)
+            - Noire
+            - Nah
+
+    Gregor:
+        Gender: Male
+        Classes:
+            - Mercenary
+            - Barbarian
+            - Myrmidon
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lissa
+            - Sully
+            - Miriel
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Olivia
+            - Cherche
+        Daughters:
+            Barbarian: Troubadour
+
+    Henry:
+        Gender: Male
+        Classes:
+            - Dark Mage
+            - Barbarian
+            - Thief
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lissa
+            - Sully
+            - Miriel
+            - Sumia
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Olivia
+            - Cherche
+        Daughters:
+            Barbarian: Troubadour
+
+    Inigo:
+        Gender: Male
+        Classes:
+            - Mercenary
+            - Myrmidon
+            - Barbarian
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lucina
+            - Kjelle
+            - Cynthia
+            - Severa
+            - Morgan (F)
+            - Noire
+            - Nah
+
+    Kellam:
+        Gender: Male
+        Classes:
+            - Knight
+            - Thief
+            - Priest
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lissa
+            - Sully
+            - Miriel
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Olivia
+            - Cherche
+
+    Kjelle:
+        Gender: Female
+        Classes:
+            - Knight
+            - Myrmidon
+            - Cavalier
+            - Wyvern Rider
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Owain
+            - Inigo
+            - Brady
+            - Gerome
+            - Morgan (M)
+            - Yarne
+            - Laurent
+
+    Laurent:
+        Gender: Male
+        Classes:
+            - Mage
+            - Barbarian
+            - Dark Mage
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lucina
+            - Kjelle
+            - Cynthia
+            - Severa
+            - Morgan (F)
+            - Noire
+            - Nah
+
+    Libra:
+        Gender: Male
+        Classes:
+            - Priest
+            - Mage
+            - Dark Mage
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lissa
+            - Sully
+            - Miriel
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Olivia
+            - Cherche
+
+    Lissa:
+        Gender: Female
+        Children:
+            - Owain
+        Classes:
+            - Cleric
+            - Pegasus Knight
+            - Troubadour
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Frederick
+            - Virion
+            - Stahl
+            - Vaike
+            - Kellam
+            - Donnel
+            - Lon’qu
+            - Ricken
+            - Gaius
+            - Gregor
+            - Libra
+            - Henry
+        Sons:
+            Pegasus Knight: Myrmidon
+            Troubadour: Barbarian
+
+    Lon’qu:
+        Gender: Male
+        Classes:
+            - Myrmidon
+            - Thief
+            - Wyvern Rider
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lissa
+            - Sully
+            - Miriel
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Olivia
+            - Cherche
+
+    Lucina:
+        Gender: Female
+        Classes:
+            - Lord
+            - Cavalier
+            - Archer
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Owain
+            - Inigo
+            - Brady
+            - Gerome
+            - Morgan (M)
+            - Yarne
+            - Laurent
+
+    Avatar (M):
+        Gender: Male
+        Children:
+            - Morgan (F)
+        Classes:
+            - Tactician
+            - Cavalier
+            - Knight
+            - Myrmidon
+            - Mercenary
+            - Fighter
+            - Barbarian
+            - Archer
+            - Thief
+            - Wyvern Rider
+            - Mage
+            - Dark Mage
+            - Priest
+            - Dread Fighter
+        Supports:
+            - Lissa
+            - Sully
+            - Miriel
+            - Sumia
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Anna
+            - Olivia
+            - Cherche
+            - Lucina
+            - Say’ri
+            - Tiki
+            - Flavia
+            - Kjelle
+            - Cynthia
+            - Severa
+            - Noire
+            - Nah
+            - Emmeryn
+            - Aversa
+
+    Morgan (M):
+        Gender: Male
+        Classes:
+            - Tactician
+            - Cavalier
+            - Knight
+            - Myrmidon
+            - Mercenary
+            - Fighter
+            - Barbarian
+            - Archer
+            - Thief
+            - Wyvern Rider
+            - Mage
+            - Dark Mage
+            - Priest
+            - Dread Fighter
+        Supports:
+            - Lucina
+            - Kjelle
+            - Cynthia
+            - Severa
+            - Noire
+            - Nah
+
+    Maribelle:
+        Gender: Female
+        Children:
+            - Brady
+        Classes:
+            - Troubadour
+            - Pegasus Knight
+            - Mage
+            - Bride
+        Supports:
+            - Chrom
+            - Avatar (M)
+            - Frederick
+            - Virion
+            - Stahl
+            - Vaike
+            - Kellam
+            - Donnel
+            - Lon’qu
+            - Ricken
+            - Gaius
+            - Gregor
+            - Libra
+            - Henry
+        Sons:
+            Pegasus Knight: Cavalier
+            Troubadour: Priest
+
+    Miriel:
+        Gender: Female
+        Children:
+            - Laurent
+        Classes:
+            - Mage
+            - Troubadour
+            - Dark Mage
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Frederick
+            - Virion
+            - Stahl
+            - Vaike
+            - Kellam
+            - Donnel
+            - Lon’qu
+            - Ricken
+            - Gaius
+            - Gregor
+            - Libra
+            - Henry
+        Sons:
+            Troubadour: Barbarian
+
+    Nah:
+        Gender: Female
+        Classes:
+            - Manakete
+            - Wyvern Rider
+            - Mage
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Owain
+            - Inigo
+            - Brady
+            - Gerome
+            - Morgan (M)
+            - Yarne
+            - Laurent
+
+    Noire:
+        Gender: Female
+        Classes:
+            - Archer
+            - Knight
+            - Dark Mage
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Owain
+            - Inigo
+            - Brady
+            - Gerome
+            - Morgan (M)
+            - Yarne
+            - Laurent
+
+    Nowi:
+        Gender: Female
+        Children:
+            - Nah
+        Classes:
+            - Manakete
+            - Mage
+            - Wyvern Rider
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Frederick
+            - Virion
+            - Stahl
+            - Vaike
+            - Kellam
+            - Donnel
+            - Lon’qu
+            - Ricken
+            - Gaius
+            - Gregor
+            - Libra
+            - Henry
+
+    Olivia:
+        Gender: Female
+        Children:
+            - Inigo
+        Classes:
+            - Dancer
+            - Myrmidon
+            - Pegasus Knight
+            - Bride
+        Supports:
+            - Chrom
+            - Avatar (M)
+            - Frederick
+            - Virion
+            - Stahl
+            - Vaike
+            - Kellam
+            - Donnel
+            - Lon’qu
+            - Ricken
+            - Gaius
+            - Gregor
+            - Libra
+            - Henry
+        Sons:
+            Dancer: Mercenary
+            Pegasus Knight: Barbarian
+
+    Owain:
+        Gender: Male
+        Classes:
+            - Myrmidon
+            - Priest
+            - Barbarian
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lucina
+            - Kjelle
+            - Cynthia
+            - Severa
+            - Morgan (F)
+            - Noire
+            - Nah
+
+    Panne:
+        Gender: Female
+        Children:
+            - Yarne
+        Classes:
+            - Taguel
+            - Thief
+            - Wyvern Rider
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Frederick
+            - Virion
+            - Stahl
+            - Vaike
+            - Kellam
+            - Donnel
+            - Lon’qu
+            - Ricken
+            - Gaius
+            - Gregor
+            - Libra
+            - Henry
+        Sons:
+            Wyvern Rider: Barbarian
+
+    Priam:
+        Gender: Male
+        Classes:
+            - Mercenary
+            - Myrmidon
+            - Fighter
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+
+    Ricken:
+        Gender: Male
+        Classes:
+            - Mage
+            - Cavalier
+            - Archer
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lissa
+            - Sully
+            - Miriel
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Olivia
+            - Cherche
+
+    Say’ri:
+        Gender: Female
+        Classes:
+            - Myrmidon
+            - Pegasus Knight
+            - Wyvern Rider
+            - Bride
+        Supports:
+            - Avatar (M)
+
+    Severa:
+        Gender: Female
+        Classes:
+            - Mercenary
+            - Pegasus Knight
+            - Dark Mage
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Owain
+            - Inigo
+            - Brady
+            - Gerome
+            - Morgan (M)
+            - Yarne
+            - Laurent
+
+    Stahl:
+        Gender: Male
+        Classes:
+            - Cavalier
+            - Archer
+            - Myrmidon
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lissa
+            - Sully
+            - Miriel
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Olivia
+            - Cherche
+
+    Sully:
+        Gender: Female
+        Children:
+            - Kjelle
+        Classes:
+            - Cavalier
+            - Myrmidon
+            - Wyvern Rider
+            - Bride
+        Supports:
+            - Chrom
+            - Avatar (M)
+            - Frederick
+            - Virion
+            - Stahl
+            - Vaike
+            - Kellam
+            - Donnel
+            - Lon’qu
+            - Ricken
+            - Gaius
+            - Gregor
+            - Libra
+            - Henry
+
+    Sumia:
+        Gender: Female
+        Children:
+            - Cynthia
+        Classes:
+            - Pegasus Knight
+            - Knight
+            - Cleric
+            - Bride
+        Supports:
+            - Chrom
+            - Avatar (M)
+            - Frederick
+            - Gaius
+            - Henry
+
+    Tharja:
+        Gender: Female
+        Children:
+            - Noire
+        Classes:
+            - Dark Mage
+            - Knight
+            - Archer
+            - Bride
+        Supports:
+            - Avatar (M)
+            - Frederick
+            - Virion
+            - Stahl
+            - Vaike
+            - Kellam
+            - Donnel
+            - Lon’qu
+            - Ricken
+            - Gaius
+            - Gregor
+            - Libra
+            - Henry
+
+    Tiki:
+        Gender: Female
+        Classes:
+            - Manakete
+            - Wyvern Rider
+            - Mage
+            - Bride
+        Supports:
+            - Avatar (M)
+
+    Vaike:
+        Gender: Male
+        Classes:
+            - Fighter
+            - Thief
+            - Barbarian
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lissa
+            - Sully
+            - Miriel
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Olivia
+            - Cherche
+        Daughters:
+            Fighter: Barbarian
+            Knight: Mercenary
+
+    Virion:
+        Gender: Male
+        Classes:
+            - Archer
+            - Wyvern Rider
+            - Mage
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lissa
+            - Sully
+            - Miriel
+            - Maribelle
+            - Panne
+            - Cordelia
+            - Nowi
+            - Tharja
+            - Olivia
+            - Cherche
+
+    Walhart:
+        Gender: Male
+        Skills:
+            - Conquest
+        Classes:
+            - Conqueror
+            - Knight
+            - Wyvern Rider
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+
+    Yarne:
+        Gender: Male
+        Classes:
+            - Taguel
+            - Thief
+            - Barbarian
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
+            - Lucina
+            - Kjelle
+            - Cynthia
+            - Severa
+            - Morgan (F)
+            - Noire
+            - Nah
+
+    Yen’fay:
+        Gender: Male
+        Classes:
+            - Myrmidon
+            - Wyvern Rider
+            - Archer
+            - Dread Fighter
+        Supports:
+            - Avatar (F)
