@@ -138,13 +138,13 @@ function setHashFromRegistry( registry ) {
 
     } );
 
-    window.location.hash = '#' + JSON.stringify( serialized );
+    window.location.hash = '#' + encodeURIComponent( JSON.stringify( serialized ) );
 
 }
 
 function setRegistryFromHash( registry ) {
 
-    var unserialized = JSON.parse( window.location.hash.substr( 1 ) );
+    var unserialized = JSON.parse( decodeURIComponent( window.location.hash.substr( 1 ) ) );
     var names = Object.keys( unserialized );
 
     while ( names.length > 0 ) {
