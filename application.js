@@ -236,10 +236,10 @@ app.controller( 'main', function ( $scope ) {
             return $scope.env.registry[ name ];
         } );
 
-        if ( $scope.env.registry[ 'Avatar (M)' ].significantOther !== undefined )
+        if ( $scope.env.registry[ 'Avatar (M)' ].significantOther !== undefined && $scope.env.registry[ 'Avatar (F)' ].significantOther === undefined )
             characterList = characterList.filter( function ( character ) { return character.name !== 'Avatar (F)'; } );
 
-        if ( $scope.env.registry[ 'Avatar (F)' ].significantOther !== undefined )
+        if ( $scope.env.registry[ 'Avatar (F)' ].significantOther !== undefined && $scope.env.registry[ 'Avatar (M)' ].significantOther === undefined )
             characterList = characterList.filter( function ( character ) { return character.name !== 'Avatar (M)'; } );
 
         return characterList;
