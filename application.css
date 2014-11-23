@@ -56,7 +56,17 @@ body {
     font-size: 1.4em;
 }
 
+.character .class {
+    display: block;
+
+    margin: 20px 0;
+
+    width: 100%;
+}
+
 .character .supports {
+    margin-left: 20px;
+
     flex: auto;
 }
 
@@ -70,6 +80,10 @@ body {
 
 .character .support.out {
     opacity: .2;
+}
+
+.character .skills {
+    text-align: center;
 }
 
 .character .skill {
@@ -88,6 +102,7 @@ body {
     }
 
     .character .supports {
+        margin-left: 0;
         margin-top: 20px;
     }
 }

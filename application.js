@@ -8,14 +8,14 @@ var Character = function ( env, name, parents ) {
     this.parents = parents;
     this.children = [ ];
 
-    this.classes = _.unique( [ ].concat( this.env.data.Characters[ this.name ].Classes || [ ], _.flatten( this.parents.map( function ( name ) { return this.env.registry[ name ].getBequeathedClasses( this ); }, this ) ) ) );
+    this.availableClasses = _.unique( [ ].concat( this.env.data.Characters[ this.name ].Classes || [ ], _.flatten( this.parents.map( function ( name ) { return this.env.registry[ name ].getBequeathedClasses( this ); }, this ) ) ) );
 
-    for ( var t = 0; t < this.classes.length; ++ t )
-        this.classes = this.classes.concat( this.env.data.Classes[ this.classes[ t ] ].Promoted || [ ] );
+    for ( var t = 0; t < this.availableClasses.length; ++ t )
+        this.availableClasses = this.availableClasses.concat( this.env.data.Classes[ this.availableClasses[ t ] ].Promoted || [ ] );
 
-    this.classes = _.unique( this.classes );
+    this.availableClasses = _.unique( this.availableClasses ).sort( );
 
-    this.availableSkills = _.unique( [ ].concat( this.env.data.Characters[ this.name ].Skills || [ ], _.flatten( this.classes.map( function ( name ) { return this.env.data.Classes[ name ].Skills; }, this ) ), _.flatten( this.parents.map( function ( name ) { return this.env.registry[ name ].availableSkills; }, this ) ) ) );
+    this.availableSkills = _.unique( [ ].concat( this.env.data.Characters[ this.name ].Skills || [ ], _.flatten( this.availableClasses.map( function ( name ) { return this.env.data.Classes[ name ].Skills; }, this ) ), _.flatten( this.parents.map( function ( name ) { return this.env.registry[ name ].availableSkills; }, this ) ) ) ).sort( );
     this.enabledSkills = [ ];
 
 };
@@ -96,7 +96,7 @@ Character.prototype.getBequeathedClasses = function ( child ) {
     var replacementField = { 'Male' : 'Sons', 'Female' : 'Daughters' }[ childGender ];
     var replacements = this.env.data.Characters[ this.name ][ replacementField ] || { };
 
-    return this.classes.map( function ( name ) {
+    return this.availableClasses.map( function ( name ) {
         return replacements[ name ] === undefined ? name : replacements[ name ];
     }, this ).filter( function ( name ) {
         return name !== null;
@@ -145,12 +145,13 @@ function setHashFromRegistry( registry ) {
 
     names.forEach( function ( name ) {
 
-        if ( registry[ name ].significantOther === undefined && registry[ name ].enabledSkills.length === 0 )
+        if ( registry[ name ].significantOther === undefined && registry[ name ].enabledSkills.length === 0 && ! registry[ name ].finalClass )
             return ;
 
         serialized[ name ] = [
             registry[ name ].significantOther === undefined ? 0 : registry[ name ].significantOther,
-            registry[ name ].enabledSkills
+            registry[ name ].enabledSkills,
+            registry[ name ].finalClass
         ];
 
     } );
@@ -182,6 +183,7 @@ function setRegistryFromHash( registry ) {
                 registry[ name ].link( entry[ 0 ] !== null ? registry[ entry[ 0 ] ] : null );
 
             registry[ name ].enabledSkills = entry[ 1 ];
+            registry[ name ].finalClass = entry[ 2 ];
 
             return false;
 
