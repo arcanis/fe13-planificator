@@ -345,6 +345,11 @@ Classes:
 Characters:
     Anna:
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Thief
             - Archer
@@ -357,6 +362,10 @@ Characters:
         Gender: Female
         Skills:
             - Shadowgift
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Pegasus Knight
             - Wyvern Rider
@@ -367,6 +376,11 @@ Characters:
 
     Basilio:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Fighter
             - Barbarian
@@ -378,6 +392,11 @@ Characters:
 
     Brady:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Priest
             - Cavalier
@@ -397,6 +416,11 @@ Characters:
         Gender: Female
         Children:
             - Gerome
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Wyvern Rider
             - Troubadour
@@ -422,6 +446,11 @@ Characters:
         Gender: Male
         Children:
             - Lucina
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Lord
             - Cavalier
@@ -438,6 +467,11 @@ Characters:
         Gender: Female:
         Children:
             - Severa
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Pegasus Knight
             - Mercenary
@@ -460,6 +494,11 @@ Characters:
 
     Cynthia:
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Pegasus Knight
             - Knight
@@ -477,6 +516,11 @@ Characters:
 
     Donnel:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Villager
             - Fighter
@@ -500,6 +544,11 @@ Characters:
 
     Emmeryn:
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Cleric
             - Pegasus Knight
@@ -510,6 +559,11 @@ Characters:
 
     Avatar (F):
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Children:
             - Morgan (M)
         Classes:
@@ -555,6 +609,11 @@ Characters:
 
     Morgan (F):
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Tactician
             - Cavalier
@@ -579,6 +638,11 @@ Characters:
 
     Flavia:
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Mercenary
             - Thief
@@ -589,6 +653,11 @@ Characters:
 
     Frederick:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Cavalier
             - Knight
@@ -610,6 +679,11 @@ Characters:
 
     Gaius:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Thief
             - Fighter
@@ -633,6 +707,11 @@ Characters:
 
     Gangrel:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Thief
             - Barbarian
@@ -643,6 +722,11 @@ Characters:
 
     Gerome:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Wyvern Rider
             - Fighter
@@ -660,6 +744,11 @@ Characters:
 
     Gregor:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Mercenary
             - Barbarian
@@ -682,6 +771,11 @@ Characters:
 
     Henry:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Dark Mage
             - Barbarian
@@ -705,6 +799,11 @@ Characters:
 
     Inigo:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Mercenary
             - Myrmidon
@@ -722,6 +821,11 @@ Characters:
 
     Kellam:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Knight
             - Thief
@@ -742,6 +846,11 @@ Characters:
 
     Kjelle:
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Knight
             - Myrmidon
@@ -760,6 +869,11 @@ Characters:
 
     Laurent:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Mage
             - Barbarian
@@ -777,6 +891,11 @@ Characters:
 
     Libra:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Priest
             - Mage
@@ -799,6 +918,11 @@ Characters:
         Gender: Female
         Children:
             - Owain
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Cleric
             - Pegasus Knight
@@ -824,6 +948,11 @@ Characters:
 
     Lon’qu:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Myrmidon
             - Thief
@@ -844,6 +973,11 @@ Characters:
 
     Lucina:
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Lord
             - Cavalier
@@ -863,6 +997,11 @@ Characters:
         Gender: Male
         Children:
             - Morgan (F)
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Tactician
             - Cavalier
@@ -905,6 +1044,11 @@ Characters:
 
     Morgan (M):
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Tactician
             - Cavalier
@@ -932,6 +1076,11 @@ Characters:
         Gender: Female
         Children:
             - Brady
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Troubadour
             - Pegasus Knight
@@ -960,6 +1109,11 @@ Characters:
         Gender: Female
         Children:
             - Laurent
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Mage
             - Troubadour
@@ -984,6 +1138,11 @@ Characters:
 
     Nah:
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Manakete
             - Wyvern Rider
@@ -1001,6 +1160,11 @@ Characters:
 
     Noire:
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Archer
             - Knight
@@ -1020,6 +1184,11 @@ Characters:
         Gender: Female
         Children:
             - Nah
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Manakete
             - Mage
@@ -1044,6 +1213,11 @@ Characters:
         Gender: Female
         Children:
             - Inigo
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Dancer
             - Myrmidon
@@ -1070,6 +1244,11 @@ Characters:
 
     Owain:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Myrmidon
             - Priest
@@ -1089,6 +1268,11 @@ Characters:
         Gender: Female
         Children:
             - Yarne
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Taguel
             - Thief
@@ -1113,6 +1297,11 @@ Characters:
 
     Priam:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Mercenary
             - Myrmidon
@@ -1123,6 +1312,11 @@ Characters:
 
     Ricken:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Mage
             - Cavalier
@@ -1143,6 +1337,11 @@ Characters:
 
     Say’ri:
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Myrmidon
             - Pegasus Knight
@@ -1153,6 +1352,11 @@ Characters:
 
     Severa:
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Mercenary
             - Pegasus Knight
@@ -1170,6 +1374,11 @@ Characters:
 
     Stahl:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Cavalier
             - Archer
@@ -1192,6 +1401,11 @@ Characters:
         Gender: Female
         Children:
             - Kjelle
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Cavalier
             - Myrmidon
@@ -1217,6 +1431,11 @@ Characters:
         Gender: Female
         Children:
             - Cynthia
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Pegasus Knight
             - Knight
@@ -1233,6 +1452,11 @@ Characters:
         Gender: Female
         Children:
             - Noire
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Dark Mage
             - Knight
@@ -1255,6 +1479,11 @@ Characters:
 
     Tiki:
         Gender: Female
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Manakete
             - Wyvern Rider
@@ -1265,6 +1494,11 @@ Characters:
 
     Vaike:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Fighter
             - Thief
@@ -1288,6 +1522,11 @@ Characters:
 
     Virion:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Archer
             - Wyvern Rider
@@ -1310,6 +1549,10 @@ Characters:
         Gender: Male
         Skills:
             - Conquest
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Conqueror
             - Knight
@@ -1320,6 +1563,11 @@ Characters:
 
     Yarne:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Taguel
             - Thief
@@ -1337,6 +1585,11 @@ Characters:
 
     Yen’fay:
         Gender: Male
+        Skills:
+            - All Stats +2
+            - Paragon
+            - Iote’s Shield
+            - Limit Breaker
         Classes:
             - Myrmidon
             - Wyvern Rider
