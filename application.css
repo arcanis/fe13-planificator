@@ -6,6 +6,7 @@
 
 body {
     background-image: url(background.jpg);
+    background-attachment: fixed;
 }
 
 .main {
@@ -77,4 +78,16 @@ body {
 
 .character .skill.off {
     opacity: .2;
+}
+
+@media (max-width: 620px) {
+    .character {
+        display: block;
+
+        width: 90%;
+    }
+
+    .character .supports {
+        margin-top: 20px;
+    }
 }
