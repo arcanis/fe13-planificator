@@ -27,7 +27,7 @@
                         <option ng-repeat="className in character.availableClasses">{{ className }}</option>
                     </select>
                     <div class="skills">
-                        <img class="skill" ng-repeat="skill in character.availableSkills" ng-class="{ off : character.enabledSkills.indexOf(skill) === -1 }" ng-click="toggleSkill(character, skill)" ng-src="skills/{{ skill | escape }}.png" title="{{ skill }}" />
+                        <img class="skill" ng-repeat="skill in character.availableSkills" ng-class="{ off : character.enabledSkills.indexOf(skill) === -1 }" ng-click="toggleSkill(character, skill)" ng-src="skills/{{ skill | escape }}.png" title="{{ skill }} - {{ env.data.Skills[ skill ] }}" />
                     </div>
                 </div>
                 <div class="supports">

@@ -342,6 +342,102 @@ Classes:
             - Rally Heart
             - Bond
 
+Skills:
+    Dual Strike+: Adds 10% to Dual Strike activation
+    Charm: Hit rate and Avoid +5 to all allies within a 3 tile radius
+    Aether: Attack twice consecutively, with the first strike having a Sol effect and the second strike having a Luna effect
+    Rightful King: Adds 10% to Skill activation rates
+    Veteran: x1.5 experience gain when in a Pair Up
+    Solidarity: Critical and Critical Avoid +10 to adjacent allies
+    Ignis: Adds (Magic)/2 to Strength when dealing physical damage and (Strength)/2 to Magic when dealing magical damage
+    Rally Spectrum: All stats (except movement) +4 to all allies within a 3 tile radius for one Turn
+    Discipline: Weapon Experience x2
+    Outdoor Fighter: Hit rate and Avoid +10 when fighting outdoors
+    Defender: All Stats (except movement) +1 when in a pair up
+    Aegis: Halves damage from bows, tomes, and Dragonstones
+    Defense +2: Defense +2
+    Indoor Fighter: Hit rate and Avoid +10 when fighting indoors
+    Rally Defense: Defense +4 to all allies within a 3 tile radius for one Turn
+    Pavise: Halves damage from swords, lances, axes (including their magical variants), and Beaststones
+    Luna: Ignores half other enemy’s Defense or Resistance
+    Dual Guard+: Adds 10% to Dual Guard rate
+    Avoid +10: Avoid +10
+    Vantage: Strike first during an enemy attack when HP is under half
+    Astra: Deals 5 consecutive hits at half damage
+    Swordfaire: Strength +5 when equipped with a sword. Magic +5 when equipped with a Levin Sword
+    Locktouch: Unlock chests and doors without the need of keys
+    Movement +1: Movement +1
+    Lucky Seven: Hit rate and Avoid +20 for the first 7 Turns of a map
+    Acrobat: All traversable terrain costs 1 movement point to cross
+    Lethality: Instantly defeats the enemy
+    Pass: User can move through tiles occupied by an enemy unit
+    Despoil: Obtain a Bullion (S) from the enemy if the user defeats the enemy
+    Gamble: Hit rate -5, Critical +10
+    Wrath: Critical +20 when under half HP
+    Axefaire: Strength +5 when equipped with an axe. Magic +5 when equipped with a Bolt Axe
+    HP +5: Maximum HP +5
+    Zeal: Critical +5
+    Rally Strength: Strength +4 to all allies within a 3 tile radius for one turn
+    Counter: Returns damage when attacked by an adjacent enemy (does not return damage when user is KO’d)
+    Armsthrift: Weapon durability is not decreased when activated
+    Patience: Hit Rate and Avoid +10 during the enemy’s Turn
+    Sol: Recover HP equal to half the damage dealt to the enemy
+    Axebreaker: Hit rate and Avoid +50 when enemy is equipped with an axe
+    Skill +2: Skill +2
+    Prescience: Hit rate and Avoid +15 during the user’s Turn
+    Hit Rate +20: Hit Rate +20
+    Bowfaire: Strength +5 when equipped with a bow
+    Rally Skill: Skill +4 to all allies within a 3 till radius for one Turn
+    Bowbreaker: Hit rate and Avoid +50 when the enemy is equipped with a bow
+    Hex: Avoid -15 to all adjacent enemies
+    Anathema: Avoid and Critical Avoid -10 to all enemies within a 3 tile radius
+    Vengeance: Adds half of the user’s current accrued damage to user’s attack
+    Tomebreaker: Hit rate and Avoid +50 when enemy is equipped with a tome
+    Magic +2: Magic +2
+    Focus: Critical +10 when no allies are within a 3 tile radius
+    Rally Magic: Magic +4 to all alies within a 3 tile radius for one Turn
+    Tomefaire: Magic +5 when equipped with a tome
+    Slow Burn: Hit rate and Avoid increases by 1 each Turn up to the 15th turn
+    Lifetaker: User recovers 50% Max HP after they defeat an enemy during the user’s Turn
+    Miracle: Character survives with 1 HP after receiving a fatal blow
+    Healtouch: Restores an extra 5 HP when healing allies
+    Rally Luck: Luck +8 to all allies within a 3 tile radius for one Turn
+    Renewal: Recover 30% HP at the start of the user’s Turn
+    Resistance +2: Resistance +2
+    Demoiselle: Avoid and Critical Avoid +10 to all male allies within a 3 tile radius
+    Rally Resistance: Resistance +4 to all allies within a 3 tile radius for one Turn
+    Dual Support+: Increases the Dual Support level of a unit by 4
+    Speed +2: Speed +2
+    Relief: Recover 20% HP at the start of the user’s Turn if there are no units within a 3 tile radius
+    Rally Speed: Speed +4 to all allies within a 3 tile radius for one Turn
+    Lancefaire: Strength +5 when equipped with a lance. Magic +5 when equipped with a Shockstick
+    Rally Movement: Movement +1 to all allies within a 3 tile radius for one Turn
+    Galeforce: Allows the user another full action after they defeat an enemy during the user’s Turn
+    Strength +2: Strength +2
+    Tantivy: Hit rate and Avoid +10 if no allies within a 3 tile radius
+    Quick Burn: Hit rate and Avoid +15 at the start of a chapter
+    Swordbreaker: Hit rate and Avoid +50 when the enemy is equipped with a sword
+    Deliverer: Movement +2 when in a Pair Up
+    Lancebreaker: Hit rate and Avoid +50 when the enemy is equipped with a lance
+    Aptitude: Adds 20% to all growth rates
+    Underdog: Hit rate and Avoid +15 when the user’s lower than the enemy
+    Luck +4: Luck +4
+    Special Dance: Strength, Magic, Defense, and Resistance +2 for one Turn for any unit who receives the user’s Dance
+    Even Rhythm: Hit rate and Avoid +10 during even numbered Turns
+    Beastbane: Deals effective damage to beast units when the user is a Taguel
+    Odd Rhythm: Hit rate and Avoid +10 during odd numbered Turns
+    Wyrmsbane: Deals effective damage to dragon units when the user is a Manakete
+    Conquest: Negates the user’s Beast and Armor weaknesses
+    Shadowgift: Enables the usage of Dark Tomes in any Tome wielding class
+    Resistance +10: Resistance +10
+    Aggressor: Attack +10 during the user’s Turn
+    Rally Heart: All stats +2 and Movement +1 to all allies within a 3 tile radius for one Turn
+    Bond: Restores 10 HP to all allies within a 3 tile radius at the beginning of the user’s Turn
+    All Stats +2: Strength, Magic, Skill, Speed, Luck, Defense, and Resistance +2
+    Paragon: Experience x2
+    Iote’s Shield: Negates user’s flying weakness
+    Limit Breaker: Raises the user’s maximum stat caps by 10
+
 Characters:
     Anna:
         Gender: Female
