@@ -230,7 +230,22 @@ app.controller( 'main', function ( $scope ) {
 
     try { setRegistryFromHash( $scope.env.registry ); } catch ( e ) { console.log( e ); }
 
-    var getCharacterList = function ( ) { return Object.keys( $scope.env.registry ).sort( ).map( function ( name ) { return $scope.env.registry[ name ]; } ); };
+    var getCharacterList = function ( ) {
+
+        var characterList = Object.keys( $scope.env.registry ).sort( ).map( function ( name ) {
+            return $scope.env.registry[ name ];
+        } );
+
+        if ( $scope.env.registry[ 'Avatar (M)' ].significantOther !== undefined )
+            characterList = characterList.filter( function ( character ) { return character.name !== 'Avatar (F)'; } );
+
+        if ( $scope.env.registry[ 'Avatar (F)' ].significantOther !== undefined )
+            characterList = characterList.filter( function ( character ) { return character.name !== 'Avatar (M)'; } );
+
+        return characterList;
+
+    };
+
     $scope.characters = getCharacterList( );
 
     $scope.toggleSkill = function ( character, skill ) {
